@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Neuton', sans-serif;
     line-height: 1.6;
     background: #170603;
     color: #000;
@@ -68,16 +68,17 @@ body {
     background: none;
     border: none;
     color: white;
-    font-size: 2rem;
-    align-self: flex-end;
+    font-size: 3rem;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
     cursor: pointer;
-    margin-bottom: 2rem;
 }
 
 .nav-links a {
     color: #fdf6f0;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
     transition: color 0.2s;
 }
@@ -123,15 +124,6 @@ main {
     position: relative;
 }
 
-/*.hero-stack {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-}*/
-
 .hero-content {         
     position: relative;
     z-index: 2;
@@ -149,7 +141,7 @@ main {
 }
 
 .hero-name {
-    width: 70vw;
+    width: 60vw;
     height: auto;
     display: block;
     position: absolute;
@@ -282,6 +274,7 @@ button,
 select,
 textarea {
     font: inherit;
+    font-family: 'Neuton', sans-serif;
 }
 
 form{
@@ -298,7 +291,7 @@ label {
     display:block;
     width:25vw;
     overflow:auto;
-    font-family:sans-serif;
+    font-family: 'Neuton', sans-serif;
     font-size: 1.5vw;
     color:#2c2c2c;
     text-shadow:0 0 2px #ddd;
