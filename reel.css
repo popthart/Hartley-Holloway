@@ -1,0 +1,58 @@
+/* Reel Page Styles */
+body {
+    font-family: 'Neuton', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #622620, #8b5e4a);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.back-arrow:hover {
+    color: #c49a6c;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#reel-box {
+    height: 100vh;
+}
+
+#reel-box img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 2vh 0;
+    background: #222;
+    color: #aaa;
+    font-family: 'Neuton', sans-serif;
+}
