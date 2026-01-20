@@ -37,13 +37,13 @@ body {
 }
 
 .hamburger-menu svg rect {
-    fill: #3d250a; 
+    fill: #f3dac6; 
     transition: fill 0.3s;
 }
 
 
 .hamburger-menu:hover svg rect {
-    fill: #866643;
+    fill: #c49a6c;
 }
 
 .nav-links {

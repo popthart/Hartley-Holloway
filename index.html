@@ -30,9 +30,9 @@
 
             <div class="hamburger-menu" id="hamburger">
                     <svg width="32" height="32" viewBox="0 0 100 80" fill="#1d2826">
-                        <rect width="100" height="15" rx="8"></rect>
-                        <rect y="30" width="100" height="15" rx="8"></rect>
-                        <rect y="60" width="100" height="15" rx="8"></rect>
+                        <rect width="100" height="18" rx="8"></rect>
+                        <rect y="30" width="100" height="18" rx="8"></rect>
+                        <rect y="60" width="100" height="18" rx="8"></rect>
                     </svg>
                 </div>
         </nav>
@@ -126,6 +126,14 @@
         closeBtn.addEventListener('click', () => {
             navLinks.classList.remove('active');
             hamburger.classList.remove('hidden'); // show hamburger again
+        });
+
+        // Close nav when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('hidden');
+            }
         });
     </script>
 </body>
