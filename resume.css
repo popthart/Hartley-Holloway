@@ -74,7 +74,8 @@ main {
 .text p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #555;
+  color: #ffefd6;
+  margin-top: -12px;
 }
 
 footer {
