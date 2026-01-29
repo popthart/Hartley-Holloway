@@ -3,7 +3,9 @@ body {
     font-family: 'Neuton', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, #622620, #8b5e4a);
+    background-image: url(/img/pagebg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -22,13 +24,13 @@ header {
     left: 1rem;
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .back-arrow:hover {
-    color: #c49a6c;
+    color: #173450;
 }
 
 main {
