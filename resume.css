@@ -120,3 +120,14 @@ footer {
     gap: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .resume-grid img{
+    max-width: 45%;
+  }
+  
+  .resume-grid{
+    display: block;
+    gap: 0;
+  }
+}
