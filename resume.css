@@ -1,4 +1,19 @@
 /* Resume Page Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 body {
     font-family: 'Neuton', sans-serif;
     margin: 0;
@@ -84,4 +99,24 @@ footer {
     background: #222;
     color: #aaa;
     font-family: 'Neuton', sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .resume-grid img{
+    max-width: 65%;
+    transform: translateX(4vh);
+  }  
+}
+
+@media (max-width: 900px) {
+  .resume-grid img{
+    max-width: 75%;
+  }
+  
+  .resume-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
 }
